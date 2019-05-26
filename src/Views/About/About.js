@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Nav from '../../components/Nav/Nav';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import Experience from './sections/Experience';
+import Experience from './sections/Experience/Experience';
 
 class About extends Component {
 
