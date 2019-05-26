@@ -29,10 +29,6 @@
     padding: 1.3rem;
     text-align: center;
   }
-  .box li {
-    text-align: left;
-
-  }
   .box:hover {
     box-shadow: 0 2px 20px black;
     color: green;
