@@ -56,6 +56,11 @@
     display: grid;
     grid-template-columns: repeat( 2, minmax(200px, 1fr) );
   }
+  .experience > ul > li:hover {
+    cursor: pointer;
+    color: green;
+    font-size: 115%;
+  }
   
   /* info */
   .info {
@@ -74,6 +79,7 @@
     display: grid;
     grid-area: nav;
     justify-items: center;
+    font-family: 'Georgia';
     /* grid-template-columns: repeat(3, minmax(200px, 1fr)); */
   }
   
@@ -98,13 +104,12 @@
     text-decoration: none;
     text-transform: uppercase;
   }
-  
   .main-nav a:hover {
     background: var(--dark);
     box-shadow: 0 2px 20px green;
     color: var(--light);
   }
-
+  
   .nav-pic-frame {
     border-radius: 30px;
   }
