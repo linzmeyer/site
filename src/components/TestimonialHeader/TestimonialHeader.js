@@ -4,7 +4,8 @@ import { connect } from 'react-redux';
 
 class TestimonialHeader extends Component {
 
-  pickIcon = () => {
+  // render an icon based on the testimonial that the user clicks on.
+  renderIcon = () => {
     if ( this.props.testimonial === 'default' ) { return ['far', 'heart'];}
     else if ( this.props.testimonial === 'teamwork' ) { return 'people-carry'; }
     else if ( this.props.testimonial === 'adaptability' ) { return 'sliders-h'; }
@@ -17,7 +18,7 @@ class TestimonialHeader extends Component {
     return (
       <h2>
         Testimonials
-        {' '}<FontAwesomeIcon icon={ this.pickIcon() } />
+        {' '}<FontAwesomeIcon icon={ this.renderIcon() } />
       </h2>
     );
   }
