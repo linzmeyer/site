@@ -15,7 +15,7 @@ class WireTech extends Component {
       <p>
         I was also a trainer for new-hire wire technicians. Rarely we would onboard an experienced technician, so we needed someone to teach new-hires the basics of constucting and wiring with quality and care. While in this role, I wrote up a step-by-step document that describes the process on how to build control panels and troubleshooting for certain problems.
       </p>
-      <p>9/2012 - 2/2018</p>      
+      <p>9/2012 - 2/2018</p>
     </section>
     );
   }
