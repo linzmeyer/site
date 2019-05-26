@@ -46,6 +46,11 @@
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   }
 
+  .calendar {
+    justify-self: center;
+    max-width: 50%;
+  }
+
   .content-container {
     display: grid;
     grid-area: content-container;
