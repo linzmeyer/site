@@ -4,7 +4,7 @@ const experienceReducer = (state = 'default', action) => {
     return action.payload;
   } else if ( action.type === 'SET_TO_PRIME_SOLO' ) {
     return action.payload;
-  } else if ( action.type === 'SET_TO_HMI_INTERNSHIP' ) {
+  } else if ( action.type === 'SET_TO_ENGINEERING_INTERNSHIP' ) {
     return action.payload;
   } else if ( action.type === 'SET_TO_WIRE_TECH' ) {
     return action.payload;
