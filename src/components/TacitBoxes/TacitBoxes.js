@@ -18,7 +18,7 @@ class TacitBoxes extends Component {
         >
           <FontAwesomeIcon icon="people-carry" size='4x' />
           <h3>Teamwork</h3>
-          <p>... If you want to go far, go together.</p>
+          <p>If you want to go far, go together.</p>
         </div>
 
         <div 
@@ -46,10 +46,10 @@ class TacitBoxes extends Component {
         >
           <FontAwesomeIcon icon="seedling" size='4x' />
           <h3>Intrinsic Motivation</h3>
-          Why?
-          <li>to help.</li>
-          <li>to learn.</li>
-          <li>to grow.</li>
+          <p>Why?</p>
+          <p>to help.</p>
+          <p>to learn.</p>
+          <p>to grow.</p>
         </div>
 
         <div
