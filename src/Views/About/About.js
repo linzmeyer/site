@@ -1,12 +1,9 @@
 import React, { Component } from 'react';
 import Nav from '../../components/Nav/Nav';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import Experience from './sections/Experience';
 
 class About extends Component {
-
-  renderExperience = () => {
-
-  }
 
   render() {
     return (
@@ -14,24 +11,13 @@ class About extends Component {
         <Nav />
         <div>
           <div className="content-container">
-            <section className="info" >
-              <h2>My Values</h2>
-              <ul>
-                <li><strong>Strive For Excellence!</strong></li>
-                <li><strong>Teamwork</strong>: I rarely work alone. I am here to help. That means being part of a team with a common goal.</li>
-                <li><strong>Adaptability</strong>: I pride myself on understanding the needs of a customer and flexing my abilities and task list until the job is done.</li>
-                <li><strong>Communication</strong>: An unclear instruction is an task with no direction or purpose.</li>
-                <li><strong>Intrinsic Motivation</strong>: I go to work because I want to be there.</li>
-                <li><strong>Time Management</strong>: Ten minutes early is five minutes late!</li>
-              </ul>
-            </section>
 
             <section className="info" >
               <h2>Skills</h2>
               <ul>
-                <li>Front and backend software development.</li>
-                <li>I Specialize in the React framework.</li>
-                <li>Wiring control panels for automated processes.</li>
+                <li>Frontend and backend software development.</li>
+                <li>I specialize in the React framework. This website is an example of React with React Redux.</li>
+                <li>Wiring industrial control panels for automation applications.</li>
               </ul>
             </section>
 
@@ -50,22 +36,18 @@ class About extends Component {
               </ul>
             </section>
 
-            <section className="info" >
-              <h2>Experience</h2>
-              <div className="experience" >
-                <ul>
-                  <li>
-                    Attended Prime Digital Academy's full immersion program for software engineers.
-                    <br></br>
-                    January 2019 - Present
-                  </li>
-                  <li>Engineering internship creating screen layouts for human-machine interface controllers.</li>
-                  <li>5 years experience building and wiring custom control panels for automated industrial machines.</li>
-                  <li>AAS Degree in Wind Energy Technology</li>
-                </ul>
-                { this.renderExperience() }
-              </div>
+            <Experience />
 
+            <section className="info" >
+              <h2>My Values</h2>
+              <ul>
+                <li><strong>Strive For Excellence!</strong></li>
+                <li><strong>Teamwork</strong>: I rarely work alone. I am here to help. That means being part of a team with a common goal.</li>
+                <li><strong>Adaptability</strong>: I pride myself on understanding the needs of a customer and flexing my abilities and task list until the job is done.</li>
+                <li><strong>Communication</strong>: An unclear instruction is a task with no direction or purpose.</li>
+                <li><strong>Intrinsic Motivation</strong>: I go to work because I want to be there.</li>
+                <li><strong>Time Management</strong>: Ten minutes early is five minutes late!</li>
+              </ul>
             </section>
 
             <section className="info" >
