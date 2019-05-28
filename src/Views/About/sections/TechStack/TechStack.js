@@ -13,10 +13,14 @@ class TechStack extends Component {
           <li><FontAwesomeIcon icon="retweet" /> Redux-Saga</li>
           <li><FontAwesomeIcon icon={['fab', 'node']} /> Node | npm</li>
           <li><FontAwesomeIcon icon="shipping-fast" /> Express</li>
-          <li><FontAwesomeIcon icon="database" /> Postgresql</li>
+          <li><FontAwesomeIcon icon="database" /> PostgreSQL</li>
           <li><FontAwesomeIcon icon="code" /> C++</li>
           <li><FontAwesomeIcon icon="th" /> CSS Grids</li>
           <li><FontAwesomeIcon icon={['fab', 'fort-awesome']} /> Font Awesome</li>
+          <li><FontAwesomeIcon icon="crop-alt" /> jQuery</li>
+          <li><FontAwesomeIcon icon="reply-all" /> AJAX</li>
+          {/* <li>jQuery</li>
+          <li>AJAX</li> */}
         </ul>
       </section>
     );
