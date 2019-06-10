@@ -19,9 +19,9 @@ class Testimonial extends Component {
       return (
         <div>
           <blockquote>
-            "Chase was an excellent member of the BW System Inc. team, and is a pleasant individual to work with. I highly recommend him for any team."
+            “Chase represents the best qualities of a strong team member. He is smart, poised, refreshingly growth-oriented, and sincere. Chase champions values that are critical to organizations. He delivers consistent results through calm problem-solving, team empowerment, and a positive mindset. Chase is always first to lead by example. He leverages his emotional intelligence to guide clients and peers to successful outcomes. This allows Chase to display his talents and motivates others to do more. It was a true pleasure to work with Chase.”
           </blockquote>
-          <h4>Jim Ascheman, BW Systems Inc.</h4>
+          <h4>Fred Sheahan, Prime Digital Academy</h4>
         </div>
       );
     } else if ( this.props.testimonial === 'adaptability' ) {
