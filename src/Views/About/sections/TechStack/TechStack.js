@@ -19,8 +19,6 @@ class TechStack extends Component {
           <li><FontAwesomeIcon icon={['fab', 'fort-awesome']} /> Font Awesome</li>
           <li><FontAwesomeIcon icon="crop-alt" /> jQuery</li>
           <li><FontAwesomeIcon icon="reply-all" /> AJAX</li>
-          {/* <li>jQuery</li>
-          <li>AJAX</li> */}
         </ul>
       </section>
     );
